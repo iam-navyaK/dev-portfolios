@@ -81,7 +81,7 @@ With multiple themes and real-time preview, just enter your details — and boom
 git clone https://github.com/iam-navyaK/dev-portfolios.git
 
 # 2. Move into the project directory
-cd dev-portfolios
+cd devcard
 
 # 3. Install dependencies
 npm install
