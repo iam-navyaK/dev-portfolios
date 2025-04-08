@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 🚀 Dev Portfolios – Build Your Digital Portfolio in Minutes!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Dev Portfolios Live](./output-dev-portfolios/theme1.png)](https://dev-portfolios-one.vercel.app)
 
-## Available Scripts
+> 🔗 **Click the image above to view the live demo**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧠 About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A React-based digital portfolio generator that lets you create a stunning, shareable portfolio effortlessly! With multiple themes and real-time preview, just enter your details — and boom 💥 your personal site is ready!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🎯 Simple multi-step data entry
+- 🎨 8 unique & colorful themes
+- 🌓 Dark mode inspired sleek UI
+- 📱 Fully responsive layout
+- 🔄 Live preview as you type
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React JS
+- HTML + SCSS
+- JavaScript
+- Vercel (Deployment)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📸 Output Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> 🔽 Scroll down to see how your portfolio will look!  
+> 🎉 Get inspired, pick your favorite theme, and build your own!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🧾 Form Inputs & Data Sections
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Basic Info | Skills/Projects |
+|------------|------------------|
+| ![basic-info](./output-dev-portfolios/basic-info.png) | ![skills-projects](./output-dev-portfolios/skills-projects.png) |
 
-## Learn More
+| Content/Personality | Certifications/Work |
+|----------------------|----------------------|
+| ![content](./output-dev-portfolios/content-personality.png) | ![certs](./output-dev-portfolios/certifications-work.png) |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Socials/Community | Theme Selection |
+|------------------|------------------|
+| ![socials](./output-dev-portfolios/socials-community.png) | ![select-theme](./output-dev-portfolios/select%20a%20theme.png) |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 🎨 All Available Themes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Theme 1 | Theme 2 |
+|--------|--------|
+| ![](./output-dev-portfolios/theme1.png) | ![](./output-dev-portfolios/theme2.png) |
 
-### Analyzing the Bundle Size
+| Theme 3 | Theme 4 |
+|--------|--------|
+| ![](./output-dev-portfolios/theme3.png) | ![](./output-dev-portfolios/theme4.png) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Theme 5 | Theme 6 |
+|--------|--------|
+| ![](./output-dev-portfolios/theme5.png) | ![](./output-dev-portfolios/theme6.png) |
 
-### Making a Progressive Web App
+| Theme 7 | Theme 8 |
+|--------|--------|
+| ![](./output-dev-portfolios/theme7.png) | ![](./output-dev-portfolios/theme8.png) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## ⭐ Like what you see?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If this project helped or inspired you:
 
-### Deployment
+> 👉 **Please give it a star!** It motivates me to build more cool stuff like this.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🧑‍💻 Built 💙 by [iam-navyaK](https://github.com/iam-navyaK)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 1. Clone this repository
+git clone https://github.com/iam-navyaK/dev-portfolios.git
+
+# 2. Move into the project directory
+cd devcard
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
