@@ -1,6 +1,7 @@
 # 🚀 Dev Portfolios – Build Your Digital Portfolio in Minutes!
 
 🔗 **[Click here to view the live demo](https://dev-portfolios-one.vercel.app)**
+
 ---
 
 ## 🧠 About the Project
@@ -31,23 +32,29 @@ A React-based digital portfolio generator that lets you create a stunning, share
 ## 📸 Output Screenshots
 
 > 🔽 Scroll down to see how your portfolio will look!  
-> 🎉 Get inspired, pick your favorite theme, and build your own!
+> 🎉 Enter your details and preview it instantly with amazing themes!
 
 ---
 
 ### 🧾 Form Inputs & Data Sections
 
-| Basic Info | Skills/Projects |
-|------------|------------------|
-| ![basic-info](./output-dev-portfolios/basic-info.png) | ![skills-projects](./output-dev-portfolios/skills-projects.png) |
+#### 🧑 Basic Info  
+![basic-info](./output-dev-portfolios/basic-info.png)
 
-| Content/Personality | Certifications/Work |
-|----------------------|----------------------|
-| ![content](./output-dev-portfolios/content-personality.png) | ![certs](./output-dev-portfolios/certifications-work.png) |
+#### 💡 Skills & Projects  
+![skills-projects](./output-dev-portfolios/skills-projects.png)
 
-| Socials/Community | Theme Selection |
-|------------------|------------------|
-| ![socials](./output-dev-portfolios/socials-community.png) | ![select-theme](./output-dev-portfolios/select%20a%20theme.png) |
+#### 🎓 Certifications & Work  
+![certs](./output-dev-portfolios/certifications-work.png)
+
+#### 🌐 Socials & Communities  
+![socials](./output-dev-portfolios/socials-community.png)
+
+#### 📝 Content & Personality  
+![content](./output-dev-portfolios/content-personality.png)
+
+#### 🎯 Theme Selection  
+![select-theme](./output-dev-portfolios/select%20a%20theme.png)
 
 ---
 
@@ -71,21 +78,16 @@ A React-based digital portfolio generator that lets you create a stunning, share
 
 ---
 
-## ⭐ Like what you see?
+## 🧪 Getting Started Locally
 
-If this project helped or inspired you:
+Run the project on your machine:
 
-> 👉 **Please give it a star!** It motivates me to build more cool stuff like this.
-
-🧑‍💻 Built 💙 by [iam-navyaK](https://github.com/iam-navyaK)
-
----
-
+```bash
 # 1. Clone this repository
 git clone https://github.com/iam-navyaK/dev-portfolios.git
 
 # 2. Move into the project directory
-cd devcard
+cd dev-portfolios
 
 # 3. Install dependencies
 npm install
