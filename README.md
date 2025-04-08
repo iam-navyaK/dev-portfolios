@@ -12,20 +12,20 @@ A React-based digital portfolio generator that lets you create a stunning, share
 
 ## ✨ Features
 
-- 🎯 Simple multi-step data entry
-- 🎨 8 unique & colorful themes
-- 🌓 Dark mode inspired sleek UI
-- 📱 Fully responsive layout
-- 🔄 Live preview as you type
+- 🎯 Simple multi-step data entry  
+- 🎨 8 unique & colorful themes  
+- 🌓 Dark mode inspired sleek UI  
+- 📱 Fully responsive layout  
+- 🔄 Live preview as you type  
 
 ---
 
 ## 🛠️ Built With
 
-- React JS
-- HTML + CSS + Bootstrap
-- JavaScript
-- Vercel (Deployment)
+- React JS  
+- HTML + CSS + Bootstrap  
+- JavaScript  
+- Vercel (Deployment)  
 
 ---
 
@@ -38,49 +38,43 @@ A React-based digital portfolio generator that lets you create a stunning, share
 
 ### 🧾 Form Inputs & Data Sections
 
-#### 🧑 Basic Info  
-![basic-info](./output-dev-portfolios/basic-info.png)
-
-#### 💡 Skills & Projects  
-![skills-projects](./output-dev-portfolios/skills-projects.png)
-
-#### 🎓 Certifications & Work  
-![certs](./output-dev-portfolios/certifications-work.png)
-
-#### 🌐 Socials & Communities  
-![socials](./output-dev-portfolios/socials-community.png)
-
-#### 📝 Content & Personality  
-![content](./output-dev-portfolios/content-personality.png)
-
-#### 🎯 Theme Selection  
-![select-theme](./output-dev-portfolios/select%20a%20theme.png)
+<table>
+  <tr>
+    <td align="center"><b>Basic Info</b><br><img src="./output-dev-portfolios/basic-info.png" width="250"/></td>
+    <td align="center"><b>Skills/Projects</b><br><img src="./output-dev-portfolios/skills-projects.png" width="250"/></td>
+    <td align="center"><b>Certifications/Work</b><br><img src="./output-dev-portfolios/certifications-work.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Socials/Community</b><br><img src="./output-dev-portfolios/socials-community.png" width="250"/></td>
+    <td align="center"><b>Content/Personality</b><br><img src="./output-dev-portfolios/content-personality.png" width="250"/></td>
+    <td align="center"><b>Theme Selection</b><br><img src="./output-dev-portfolios/select%20a%20theme.png" width="250"/></td>
+  </tr>
+</table>
 
 ---
 
 ### 🎨 All Available Themes
 
-| Theme 1 | Theme 2 |
-|--------|--------|
-| ![](./output-dev-portfolios/theme1.png) | ![](./output-dev-portfolios/theme2.png) |
-
-| Theme 3 | Theme 4 |
-|--------|--------|
-| ![](./output-dev-portfolios/theme3.png) | ![](./output-dev-portfolios/theme4.png) |
-
-| Theme 5 | Theme 6 |
-|--------|--------|
-| ![](./output-dev-portfolios/theme5.png) | ![](./output-dev-portfolios/theme6.png) |
-
-| Theme 7 | Theme 8 |
-|--------|--------|
-| ![](./output-dev-portfolios/theme7.png) | ![](./output-dev-portfolios/theme8.png) |
+<table>
+  <tr>
+    <td><img src="./output-dev-portfolios/theme1.png" width="250"/></td>
+    <td><img src="./output-dev-portfolios/theme2.png" width="250"/></td>
+    <td><img src="./output-dev-portfolios/theme3.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="./output-dev-portfolios/theme4.png" width="250"/></td>
+    <td><img src="./output-dev-portfolios/theme5.png" width="250"/></td>
+    <td><img src="./output-dev-portfolios/theme6.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="./output-dev-portfolios/theme7.png" width="250"/></td>
+    <td><img src="./output-dev-portfolios/theme8.png" width="250"/></td>
+  </tr>
+</table>
 
 ---
 
 ## 🧪 Getting Started Locally
-
-Run the project on your machine:
 
 ```bash
 # 1. Clone this repository
