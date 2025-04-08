@@ -1,6 +1,6 @@
 # 🚀 Dev Portfolios – Build Your Digital Portfolio in Minutes!
 
-[![Dev Portfolios Live](./output-dev-portfolios/theme1.png)](https://dev-portfolios-one.vercel.app)
+[![Dev Portfolios Live](https://dev-portfolios-one.vercel.app)]
 
 > 🔗 **Click the image above to view the live demo**
 
