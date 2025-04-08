@@ -6,7 +6,8 @@
 
 ## 🧠 About the Project
 
-A React-based digital portfolio generator that lets you create a stunning, shareable portfolio effortlessly! With multiple themes and real-time preview, just enter your details — and boom 💥 your personal site is ready!
+A React-based digital portfolio generator that lets you create a stunning, shareable portfolio effortlessly!  
+With multiple themes and real-time preview, just enter your details — and boom 💥 your personal site is ready!
 
 ---
 
@@ -40,42 +41,40 @@ A React-based digital portfolio generator that lets you create a stunning, share
 
 <table>
   <tr>
-    <td align="center"><b>Basic Info</b><br><img src="./output-dev-portfolios/basic-info.png" width="250"/></td>
-    <td align="center"><b>Skills/Projects</b><br><img src="./output-dev-portfolios/skills-projects.png" width="250"/></td>
-    <td align="center"><b>Certifications/Work</b><br><img src="./output-dev-portfolios/certifications-work.png" width="250"/></td>
+    <td><b>Basic Info</b><br><img src="./output-dev-portfolios/basic-info.png" width="300"/></td>
+    <td><b>Skills/Projects</b><br><img src="./output-dev-portfolios/skills-projects.png" width="300"/></td>
+    <td><b>Certifications/Work</b><br><img src="./output-dev-portfolios/certifications-work.png" width="300"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Socials/Community</b><br><img src="./output-dev-portfolios/socials-community.png" width="250"/></td>
-    <td align="center"><b>Content/Personality</b><br><img src="./output-dev-portfolios/content-personality.png" width="250"/></td>
-    <td align="center"><b>Theme Selection</b><br><img src="./output-dev-portfolios/select%20a%20theme.png" width="250"/></td>
+    <td><b>Socials/Community</b><br><img src="./output-dev-portfolios/socials-community.png" width="300"/></td>
+    <td><b>Content/Personality</b><br><img src="./output-dev-portfolios/content-personality.png" width="300"/></td>
+    <td><b>Theme Selection</b><br><img src="./output-dev-portfolios/select%20a%20theme.png" width="300"/></td>
   </tr>
 </table>
 
 ---
 
-### 🎨 All Available Themes
+### 🎨 Available Portfolio Themes
 
-<table>
-  <tr>
-    <td align="center"><b>Theme 1</b><br><img src="./output-dev-portfolios/theme1.png" width="250"/></td>
-    <td align="center"><b>Theme 2</b><br><img src="./output-dev-portfolios/theme2.png" width="250"/></td>
-    <td align="center"><b>Theme 3</b><br><img src="./output-dev-portfolios/theme3.png" width="250"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Theme 4</b><br><img src="./output-dev-portfolios/theme4.png" width="250"/></td>
-    <td align="center"><b>Theme 5</b><br><img src="./output-dev-portfolios/theme5.png" width="250"/></td>
-    <td align="center"><b>Theme 6</b><br><img src="./output-dev-portfolios/theme6.png" width="250"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Theme 7</b><br><img src="./output-dev-portfolios/theme7.png" width="250"/></td>
-    <td align="center"><b>Theme 8</b><br><img src="./output-dev-portfolios/theme8.png" width="250"/></td>
-    <td></td>
-  </tr>
-</table>
+| Theme 1 | Theme 2 |
+|--------|--------|
+| ![](./output-dev-portfolios/theme1.png) | ![](./output-dev-portfolios/theme2.png) |
+
+| Theme 3 | Theme 4 |
+|--------|--------|
+| ![](./output-dev-portfolios/theme3.png) | ![](./output-dev-portfolios/theme4.png) |
+
+| Theme 5 | Theme 6 |
+|--------|--------|
+| ![](./output-dev-portfolios/theme5.png) | ![](./output-dev-portfolios/theme6.png) |
+
+| Theme 7 | Theme 8 |
+|--------|--------|
+| ![](./output-dev-portfolios/theme7.png) | ![](./output-dev-portfolios/theme8.png) |
 
 ---
 
-## 🧪 Getting Started Locally
+## 💻 Run Locally
 
 ```bash
 # 1. Clone this repository
