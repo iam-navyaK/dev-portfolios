@@ -22,7 +22,7 @@ A React-based digital portfolio generator that lets you create a stunning, share
 ## 🛠️ Built With
 
 - React JS
-- HTML + SCSS
+- HTML + CSS + Bootstrap
 - JavaScript
 - Vercel (Deployment)
 
