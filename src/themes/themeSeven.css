@@ -1,0 +1,102 @@
+/* themeSeven.css */
+
+.theme-seven-wrapper {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5fff5;
+  color: #1f3d1f;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+ background: url("https://images.unsplash.com/photo-1645109115955-5d70af1ea1ec?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.theme-seven-top {
+  background: linear-gradient(to right, #48c774, #2f9e44);
+  color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(72, 199, 116, 0.3);
+  margin-bottom: 30px;
+}
+
+.theme-seven-top .profile h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.theme-seven-top .profile h2 {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+.theme-seven-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.theme-seven-card {
+  background: #ffffff;
+  border: 1px solid #c3f3c8;
+  border-left: 5px solid #48c774;
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-shadow: 0 3px 6px rgba(0, 128, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.theme-seven-card:hover {
+  transform: translateY(-5px);
+}
+
+.theme-seven-card h3 {
+  margin-top: 0;
+  color: #2d6a4f;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #74d680;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+}
+
+.theme-seven-card ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.theme-seven-card li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.theme-seven-card p {
+  margin: 6px 0;
+}
+
+.theme-seven-card a {
+  color: #238636;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.theme-seven-card a:hover {
+  text-decoration: underline;
+  color: #19692c;
+}
+
+.theme-seven-card blockquote {
+  font-style: italic;
+  color: #4c4c4c;
+  border-left: 4px solid #9be4a4;
+  padding-left: 12px;
+  margin: 10px 0;
+}

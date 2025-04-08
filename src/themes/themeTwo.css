@@ -1,0 +1,121 @@
+/* src/themes/themeTwo.css */
+
+.theme-two-container {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f1f1f1;
+    padding: 40px 20px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .theme-two-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .theme-two-header h1 {
+    font-size: 3rem;
+    color: #00ffe0;
+    text-shadow: 0 0 15px #00ffe0aa;
+  }
+  
+  .theme-two-header h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffffcc;
+    text-shadow: 0 0 5px #00ffee77;
+  }
+  
+  .theme-two-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .block {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 6px solid #00ffe0;
+    border-radius: 12px;
+    padding: 25px 30px;
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .block:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 255, 255, 0.2);
+  }
+  
+  .block h3 {
+    font-size: 1.6rem;
+    color: #00ffe0;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #00ffe099;
+    padding-bottom: 5px;
+  }
+  
+  .block p,
+  .block li,
+  .block a {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #eeeeee;
+  }
+  
+  .block ul {
+    padding-left: 20px;
+  }
+  
+  .block a {
+    color: #00ffe0;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .block a:hover {
+    color: #00b4ff;
+  }
+  
+  .theme-two-footer {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .theme-two-footer button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    background: #00ffe0;
+    color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 0 10px #00ffe0aa;
+    transition: all 0.3s ease;
+  }
+  
+  .theme-two-footer button:hover {
+    background: #00b4ff;
+    box-shadow: 0 0 15px #00b4ffaa;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .theme-two-header h1 {
+      font-size: 2rem;
+    }
+  
+    .theme-two-grid {
+      gap: 30px;
+      padding: 0 10px;
+    }
+  
+    .block {
+      padding: 20px;
+    }
+  }
+  

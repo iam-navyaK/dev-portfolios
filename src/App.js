@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Form from "./components/Form";
+import Preview from "./components/Preview";
+import ThemeSelector from "./components/ThemeSelector";
+import defaultData from "./data/defaultData";
+import "./styles/styles.css";
 
-function App() {
+const App = () => {
+  const [formData, setFormData] = useState(defaultData);
+  const [step, setStep] = useState("form"); // 'form' | 'theme' | 'preview'
+  const [selectedTheme, setSelectedTheme] = useState("theme1");
+
+  const handleSubmit = () => {
+    setStep("theme");
+  };
+
+  const handleThemeSelect = (theme) => {
+    setSelectedTheme(theme);
+    setStep("preview");
+  };
+
+  const handleBackToForm = () => {
+    setStep("form");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      {step === "form" && (
+        <Form
+          formData={formData}
+          setFormData={setFormData}
+          onSubmit={handleSubmit}
+        />
+      )}
+
+      {step === "theme" && (
+        <ThemeSelector onSelect={handleThemeSelect} />
+      )}
+
+      {step === "preview" && (
+        <Preview
+          data={formData}
+          theme={selectedTheme}
+          onBack={handleBackToForm}
+        />
+      )}
     </div>
   );
-}
+};
 
 export default App;

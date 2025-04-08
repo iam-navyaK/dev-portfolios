@@ -1,0 +1,205 @@
+/* Google Fonts (Include in HTML <head>) */
+/* Example: 
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Raleway:wght@400;600&family=Fira+Code&display=swap" rel="stylesheet"> 
+*/
+
+.theme-eight-wrapper {
+  padding: 2rem;
+  max-width: 1300px;
+  margin: auto;
+  animation: fadeIn 1.5s ease-in-out;
+  background-color: #0e0e1b;
+  color: #e0f7fa;
+  font-family: 'Raleway', sans-serif;
+  background: url("https://images.unsplash.com/photo-1611107875582-684c70574042?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBnYWxheHl8ZW58MHx8MHx8fDA%3D");
+}
+
+/* Header / Hero */
+.theme-eight-hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  position: relative;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.theme-eight-hero h1 {
+  font-size: 3rem;
+  color: #00fff7;
+  margin: 0;
+  text-shadow: 0 0 20px #00c6a3, 0 0 10px #00ffe0;
+  animation: slideInTop 1s ease-out;
+}
+
+.theme-eight-title {
+  font-size: 1.3rem;
+  color: #baf7eb;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+/* Glowing Background */
+.theme-eight-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(0, 255, 204, 0.2) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  filter: blur(40px);
+  z-index: -1;
+}
+
+/* Grid Layout */
+.theme-eight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  animation: fadeInUp 1s ease-in;
+}
+
+/* Unique Cards */
+.theme-eight-card {
+  padding: 1.5rem;
+  backdrop-filter: blur(18px);
+  transition: 0.3s ease;
+  animation: popIn 0.6s ease forwards;
+  opacity: 0;
+  color: #e0f7fa;
+  font-family: 'Fira Code', monospace;
+}
+
+.theme-eight-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffd479;
+}
+
+/* Card Shapes + Colors */
+.theme-eight-card:nth-child(1) {
+  background: rgba(0, 255, 204, 0.08);
+  border: 1px solid #00ffc3;
+  border-radius: 20px 5px 20px 5px;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+}
+
+.theme-eight-card:nth-child(2) {
+  background: rgba(255, 0, 128, 0.07);
+  border: 2px dashed #ff007c;
+  clip-path: polygon(0% 0%, 100% 5%, 95% 100%, 5% 95%);
+  box-shadow: 0 0 15px rgba(255, 0, 128, 0.4);
+}
+
+.theme-eight-card:nth-child(3) {
+  background: rgba(0, 128, 255, 0.07);
+  border-left: 6px solid #0080ff;
+  border-radius: 8px;
+  transform: rotate(-1deg);
+  box-shadow: 0 0 10px rgba(0, 128, 255, 0.3);
+}
+
+.theme-eight-card:nth-child(4) {
+  background: rgba(255, 204, 0, 0.07);
+  border: 1px solid #ffcc00;
+  border-radius: 30px 0 30px 0;
+  box-shadow: inset 0 0 10px rgba(255, 204, 0, 0.2);
+}
+
+.theme-eight-card:nth-child(5) {
+  background: rgba(153, 102, 255, 0.08);
+  border: 2px dotted #9966ff;
+  border-radius: 50% 0% 50% 0%;
+  box-shadow: 0 0 12px rgba(153, 102, 255, 0.4);
+}
+
+.theme-eight-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  filter: brightness(1.05);
+}
+
+/* Lists */
+.theme-eight-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.theme-eight-card li {
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+  font-size: 0.95rem;
+}
+
+.theme-eight-card li:last-child {
+  border-bottom: none;
+}
+
+/* Links */
+a {
+  color: #00fff7;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffd479;
+  text-shadow: 0 0 6px #00fff7;
+}
+
+/* Blockquote */
+blockquote {
+  margin: 1rem 0;
+  font-style: italic;
+  color: #d6fdfc;
+  border-left: 4px solid #00c6a3;
+  padding-left: 1rem;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 6px;
+}
+
+/* Footer in Blockquote */
+blockquote footer {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #ffd479;
+  margin-top: 0.5rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInTop {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.95); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .theme-eight-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .theme-eight-title {
+    font-size: 1rem;
+  }
+
+  .theme-eight-card {
+    transform: none !important;
+    clip-path: none !important;
+  }
+}

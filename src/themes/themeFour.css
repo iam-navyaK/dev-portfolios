@@ -1,0 +1,145 @@
+.theme-four-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  
+}
+
+.theme-four-sidebar {
+  width: 250px;
+  min-width: 200px;
+  background: linear-gradient(135deg, #0ab0de, #17d22a);
+  color: #f0eaea;
+  padding: 25px;
+  box-shadow: 5px 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.theme-four-sidebar h2 {
+  margin-top: 0;
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+}
+
+.theme-four-sidebar p {
+  color: black;
+}
+
+.theme-four-sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.theme-four-sidebar nav ul li {
+  margin: 14px 0;
+}
+
+.theme-four-sidebar nav ul li a {
+  color: #faf2f2;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.theme-four-sidebar nav ul li a:hover {
+  color: #7FFFD4;
+}
+
+.theme-four-main {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #f3f4ff;
+  overflow-y: auto;
+}
+
+.theme-four-main section {
+  background: linear-gradient(135deg, #00C9FF, #92FE9D);
+  border-radius: 14px;
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: 0.3s ease;
+}
+
+.theme-four-main section:hover {
+  transform: translateY(-6px);
+}
+
+.theme-four-main h3 {
+  color: black;
+}
+
+.button-primary {
+  background: linear-gradient(135deg, #00CFFF, #FF6B6B);
+  color: #ffffff;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-primary:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .theme-four-container {
+    flex-direction: column;
+  }
+
+  .theme-four-sidebar {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .theme-four-sidebar nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .theme-four-sidebar nav ul li {
+    margin: 8px 0;
+  }
+
+  .theme-four-main {
+    padding: 20px;
+    
+  }
+
+  .theme-four-main section {
+    padding: 20px;
+    color: white;
+    
+  }
+}
+
+@media (max-width: 480px) {
+  .theme-four-sidebar h2 {
+    font-size: 20px;
+  }
+
+  .theme-four-main h3 {
+    font-size: 18px;
+  }
+
+  .theme-four-main section {
+    padding: 15px;
+    color: white;
+  }
+
+  .button-primary {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
