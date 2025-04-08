@@ -57,18 +57,19 @@ A React-based digital portfolio generator that lets you create a stunning, share
 
 <table>
   <tr>
-    <td><img src="./output-dev-portfolios/theme1.png" width="250"/></td>
-    <td><img src="./output-dev-portfolios/theme2.png" width="250"/></td>
-    <td><img src="./output-dev-portfolios/theme3.png" width="250"/></td>
+    <td align="center"><b>Theme 1</b><br><img src="./output-dev-portfolios/theme1.png" width="250"/></td>
+    <td align="center"><b>Theme 2</b><br><img src="./output-dev-portfolios/theme2.png" width="250"/></td>
+    <td align="center"><b>Theme 3</b><br><img src="./output-dev-portfolios/theme3.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="./output-dev-portfolios/theme4.png" width="250"/></td>
-    <td><img src="./output-dev-portfolios/theme5.png" width="250"/></td>
-    <td><img src="./output-dev-portfolios/theme6.png" width="250"/></td>
+    <td align="center"><b>Theme 4</b><br><img src="./output-dev-portfolios/theme4.png" width="250"/></td>
+    <td align="center"><b>Theme 5</b><br><img src="./output-dev-portfolios/theme5.png" width="250"/></td>
+    <td align="center"><b>Theme 6</b><br><img src="./output-dev-portfolios/theme6.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="./output-dev-portfolios/theme7.png" width="250"/></td>
-    <td><img src="./output-dev-portfolios/theme8.png" width="250"/></td>
+    <td align="center"><b>Theme 7</b><br><img src="./output-dev-portfolios/theme7.png" width="250"/></td>
+    <td align="center"><b>Theme 8</b><br><img src="./output-dev-portfolios/theme8.png" width="250"/></td>
+    <td></td>
   </tr>
 </table>
 
