@@ -74,6 +74,17 @@ With multiple themes and real-time preview, just enter your details — and boom
 
 ---
 
+
+## ⭐ Like what you see?
+
+If this project helped or inspired you:
+
+> 👉 **Please give it a star!** It motivates me to build more cool stuff like this.
+
+🧑‍💻 Built with 💙 by [iam-navyaK](https://github.com/iam-navyaK)
+
+---
+
 ## 💻 Run Locally
 
 ```bash
